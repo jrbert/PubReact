@@ -11,7 +11,6 @@ class App extends Component {
         <Router>
         <Route path="/" exact>
           <Header />
-          <Menu />
         </Route>
         <Switch>
 
