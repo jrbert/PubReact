@@ -3,27 +3,23 @@ import './App.css'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from './Header/Header'
 
-class App extends Component {
+ const App = () => {
+ 
   
-  render() {
     return (
       <div className="App">
         <Router>
-        <Route path="/" exact>
+       
           <Header />
-          <Menu />
-        </Route>
-        <Switch>
-
-        </Switch>
+      
         </Router>
       </div>
-      
+  
       
       
   
     
     );
-  }
+  
 }
-export default App;
+export default App
