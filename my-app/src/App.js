@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './App.css'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from './Header/Header'
+import Menu from '/sty'
 
 class App extends Component {
   
@@ -11,10 +12,9 @@ class App extends Component {
         <Router>
         <Route path="/" exact>
           <Header />
-          <Menu />
         </Route>
         <Switch>
-
+        <Button />
         </Switch>
         </Router>
       </div>

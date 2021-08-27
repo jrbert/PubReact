@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <Menu>
+        <Menu class="">
             <nav>
                 <ul>
                     <li><link to="/resilia-pub">Pub Resilia</link></li>
