@@ -28,9 +28,5 @@ li a {
     font-weight: bold;
    
 }
-<<<<<<< HEAD
 `
-=======
-`;
->>>>>>> 2baa76c6ca7dea987b87d0136398a66c95437b5f
 
