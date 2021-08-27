@@ -1,11 +1,10 @@
 //packages
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Menu from './Header.styles.js'
+import { Menu } from './Header.styles.js'
 
 const Header = () => {
     return (
-
         <Menu>
             <nav>
                 <ul>

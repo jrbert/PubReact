@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Menu = styled.header`
+export const Menu = styled.header`
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,400&display=swap');
 display: flex;
@@ -30,4 +30,3 @@ li a {
 }
 `;
 
-export default Menu;

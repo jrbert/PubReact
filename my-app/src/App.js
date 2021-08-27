@@ -11,13 +11,13 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route>
+          <Route path="/musicas">
             <Musicas/>
           </Route>
         </Switch>
       </Router>
     </div>
   );
+  }
 
-}
-export default App
+export default App;
