@@ -4,26 +4,30 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from './Header/Header'
 import Menu from '/sty'
 
-class App extends Component {
+ const App = () => {
+ 
   
-  render() {
     return (
       <div className="App">
         <Router>
-        <Route path="/" exact>
+       
           <Header />
+<<<<<<< HEAD
         </Route>
         <Switch>
         <Button />
         </Switch>
+=======
+      
+>>>>>>> e8322caceb7254d72c49cf79d47ecca417eefacd
         </Router>
       </div>
-      
+  
       
       
   
     
     );
-  }
+  
 }
-export default App;
+export default App
