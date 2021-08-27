@@ -6,7 +6,7 @@ import {Menu} from './Header.styles.js'
 
 const Header = () => {
     return (
-        <Menu>
+        <Menu class="">
             <nav>
                 <ul>
                     <li id = 'resiliapub'><Link to="/resilia-pub">Resilia Pub</Link></li>
