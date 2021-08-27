@@ -1,18 +1,23 @@
+//packages
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Menu from './Header.styles.js'
 
 const Header = () => {
     return (
+
         <Menu>
             <nav>
                 <ul>
-                    <li><link to="/resilia-pub">Pub Resilia</link></li>
-                    <li><link to="/cardapio">Cardápio</link></li>
-                    <li><link to="/musicas">Músicas</link></li>
-                    <li><link to="/equipe">Nossa Equipe</link></li>
-                    <li><link to="/contato">Contato</link></li>
+                    <li id='resiliapub'><Link to="/resilia-pub">Resilia Pub</Link></li>
+                    <li><Link to="/cardapio">Cardápio</Link></li>
+                    <li><Link to="/musicas">Músicas</Link></li>
+                    <li><Link to="/equipe">Nossa Equipe</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
             </nav>
         </Menu>
+
     )
 }
 

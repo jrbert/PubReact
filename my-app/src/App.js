@@ -1,28 +1,23 @@
-import React, {Component} from 'react'
+import React from 'react'
 import './App.css'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Header from './Header/Header'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Header from './Header/Header.jsx'
+import Musicas from './Music/Musica'
+const App = () => {
 
-class App extends Component {
-  
-  render() {
-    return (
-      <div className="App">
-        <Router>
-        <Route path="/" exact>
-          <Header />
-        </Route>
+
+  return (
+    <div className="App">
+      <Router>
+        <Header />
         <Switch>
-
+          <Route>
+            <Musicas/>
+          </Route>
         </Switch>
-        </Router>
-      </div>
-      
-      
-      
-  
-    
-    );
-  }
+      </Router>
+    </div>
+  );
+
 }
-export default App;
+export default App
