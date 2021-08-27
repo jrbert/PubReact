@@ -12,14 +12,7 @@ import Menu from '/sty'
         <Router>
        
           <Header />
-<<<<<<< HEAD
-        </Route>
-        <Switch>
-        <Button />
-        </Switch>
-=======
       
->>>>>>> e8322caceb7254d72c49cf79d47ecca417eefacd
         </Router>
       </div>
   
