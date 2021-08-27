@@ -1,32 +1,34 @@
-import React, {useEffect, useState} from 'react';
-import Musica from '../Music/Musica.jsx';
+import React, { useEffect, useState } from 'react';
+import Musicas from '../Music/Musica.jsx';
+import { Container } from '../Music/Musica.styles'
 import api from '../service/api.js'
-function RenderMusic(){
-    
+
+function RenderMusic() {
+
     const [musicas, setMusicas] = useState([]);
-    
-    useEffect(()=>{
-        api.get('musicas').then(({data})=>{
-            setMusicas(data.musicas);
-        })
+
+    useEffect(() => {
+        api.get('musicas').then(({ data }) => {
+            setMusicas(data);
+        });
         console.log(musicas);
 
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    return(
+    return (
 
         <main>
-            {musicas?.map((musica)=>{
-                <Musica
-                key={musica.ID}
-                id={musica.ID}
-                nome={musica.NOME_DA_MUSICA}
-                cantor={musica.CANTOR}
-                estilo={musica.ESTILO}
-                >
-
-                </Musica>
-            })}
+            <Container>
+                {musicas?.map((musica) => {
+                    <Musicas
+                        key={musica.ID}
+                        id={musica.ID}
+                        nome={musica.NOME_DA_MUSICA}
+                        cantor={musica.CANTOR}
+                        estilo={musica.ESTILO}
+                    />
+                })}
+            </Container>
         </main>
     )
 }
