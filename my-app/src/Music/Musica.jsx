@@ -1,14 +1,16 @@
 import React from 'react';
-import {Container} from './Musica.styles.js'
+import { Caixa, Container, Main } from './Musica.styles.js'
 function Musicas({ id, nome, cantor, estilo }) {
     return (
-        <main>
+        <Main>
             <Container>
-                <h2>{nome}</h2>
-                <p>{cantor}</p>
-                <p>{estilo}</p>
+                <Caixa>
+                    <h2>{nome}</h2>
+                    <p>{cantor}</p>
+                    <p>{estilo}</p>
+                </Caixa>
             </Container>
-        </main>
+        </Main>
     )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './Header/Header.jsx'
-import RenderMusic from './MusicList/MusicList.jsx'
+import RenderMusic from './MusicList/RenderMusic.jsx'
 const App = () => {
   return (
     <div className="App">
