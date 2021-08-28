@@ -8,25 +8,26 @@ import Main from './Main/Main.jsx'
 
 const App = () => {
 
-
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Switch>
-          <Route path="/" exact>
-              <Main />
-          </Route>  
-        </Switch>
-        <Switch>
-          <Route path="/musicas">
-            <RenderMusic/>
-          </Route>
-        </Switch>
-      </Router>
-      <Footer />
-    </div>
-  );
+  
+    return (
+      <div className="App">
+        <Router>
+          <Switch>
+            <Header />
+              <Route path="/">
+                <Main />
+              </Route>  
+              <Route path="/musicas">
+                <RenderMusic />
+              </Route>
+            </Switch>
+          </Router>
+        <div>
+          <Footer />
+        </div>    
+      </div>
+  )
 }
+
 
 export default App;
