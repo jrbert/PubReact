@@ -2,9 +2,9 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './Header/Header.jsx'
-import Musicas from './Music/Musica'
-import Rodape from './Footer/Footer.jsx'
-
+import RenderMusic from './MusicList/RenderMusic.jsx'
+import Footer from './Footer/Footer.jsx'
+import Main from './Main/Main.jsx'
 
 const App = () => {
 
@@ -14,16 +14,19 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
+          <Route path="/" exact>
+              <Main />
+          </Route>  
+        </Switch>
+        <Switch>
           <Route path="/musicas">
-            <Musicas/>
+            <RenderMusic/>
           </Route>
         </Switch>
-        <div>
-        <Rodape />
-        </div>
       </Router>
+      <Footer />
     </div>
   );
-  }
+}
 
 export default App;

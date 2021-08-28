@@ -1,15 +1,16 @@
 import React, {useEffect, useState} from 'react';
-import Musica from '../Music/Musica.jsx';
+import Musicas from '../Music/Musica.jsx';
 import api from '../service/api.js'
+
 function RenderMusic(){
     
     const [musicas, setMusicas] = useState([]);
     
     useEffect(()=>{
-        api.get('musicas').then(({data})=>{
-            setMusicas(data.musicas);
+        api.get('musicas').then(( sla )=>{
+            setMusicas(sla.data);
+            console.log(musicas);
         })
-        console.log(musicas);
 
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -17,15 +18,15 @@ function RenderMusic(){
 
         <main>
             {musicas?.map((musica)=>{
-                <Musica
+                return(
+                <Musicas
                 key={musica.ID}
                 id={musica.ID}
                 nome={musica.NOME_DA_MUSICA}
                 cantor={musica.CANTOR}
                 estilo={musica.ESTILO}
-                >
-
-                </Musica>
+                />)
+            
             })}
         </main>
     )
