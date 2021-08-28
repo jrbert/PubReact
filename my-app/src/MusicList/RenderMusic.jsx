@@ -14,7 +14,7 @@ function RenderMusic(){
 
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    return(
+    return (
 
         <main>
             {musicas?.map((musica)=>{

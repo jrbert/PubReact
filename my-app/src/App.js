@@ -7,6 +7,7 @@ import Footer from './Footer/Footer.jsx'
 import Main from './Main/Main.jsx'
 
 const App = () => {
+<<<<<<< HEAD
 
   
     return (
@@ -27,6 +28,26 @@ const App = () => {
         </div>    
       </div>
   )
+=======
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact>
+              <Main />
+          </Route>  
+        </Switch>
+        <Switch>
+          <Route path="/musicas">
+            <RenderMusic/>
+          </Route>
+        </Switch>
+      </Router>
+      <Footer />
+    </div>
+  );
+>>>>>>> a4ca95dcbc6c786c807a0a7db702c8ced25ccb76
 }
 
 
