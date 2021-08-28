@@ -7,8 +7,6 @@ import Footer from './Footer/Footer.jsx'
 import Main from './Main/Main.jsx'
 
 const App = () => {
-
-
   return (
     <div className="App">
       <Router>
