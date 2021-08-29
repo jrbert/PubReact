@@ -10,15 +10,13 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-        <Header />
+          <Header />
         <Switch>
-          <Route path="/" exact>
-              <Main />
-          </Route>  
-        </Switch>
-        <Switch>
+          <Route path="/">
+            <Main />
+          </Route>
           <Route path="/musicas">
-            <RenderMusic/>
+            <RenderMusic />
           </Route>
         </Switch>
       </Router>

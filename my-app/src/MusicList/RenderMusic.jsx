@@ -7,17 +7,16 @@ function RenderMusic(){
     const [musicas, setMusicas] = useState([]);
     
     useEffect(()=>{
-        api.get('musicas').then(( sla )=>{
-            setMusicas(sla.data);
+        api.get('musicas').then(({data})=>{
+            setMusicas(data);
             console.log(musicas);
         })
 
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     return (
-
         <main>
-            {musicas?.map((musica)=>{
+            {musicas?musicas.map((musica)=>{
                 return(
                 <Musicas
                 key={musica.ID}
@@ -27,7 +26,7 @@ function RenderMusic(){
                 estilo={musica.ESTILO}
                 />)
             
-            })}
+            }): "Não deu bom"}
         </main>
     )
 }
