@@ -25,23 +25,6 @@ export const Conteudo = styled.main`
         width: 100%;
     }
 
-    #figcap {
-        position: absolute;   
-        top: 145px;   
-        right: 20px;   
-        font-family: 'Playfair Display', serif;
-        font-size: 85px;   
-        color: #5AEBD1;;   
-        text-shadow: 0px 0px 5px black;
-
-
-        //position: relative;
-        //font-size: 20px;
-        //color: #fff;
-        //text-align: center;
-        //vertical-align: middle;
-    }
-
     #pratos {
         grid-column-start: 1;
         grid-column-end: 2;
