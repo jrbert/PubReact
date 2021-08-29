@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Musicas from '../Music/Musica.jsx';
-import api from '../service/api.js'
+import api from '../../service/api.js'
 
 function RenderMusic(){
     

@@ -7,7 +7,8 @@ background-color: #0F1E1D;
 
 export const Caixa = styled.div`
 background-color: #004E67;
-margin-top: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
 padding: 25px;
 height: 100px;
 width: 200px;
