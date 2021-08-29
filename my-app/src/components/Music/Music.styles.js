@@ -16,6 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+color:#5AEBD1;
 `
 export const Container = styled.div`
     display: flex;

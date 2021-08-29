@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Musicas from '../Music/Musica.jsx';
+import Musicas from '../Music/Music.jsx';
 import api from '../../service/api.js'
 
 function RenderMusic(){
@@ -16,17 +16,18 @@ function RenderMusic(){
     }, []);
     return (
         <main>
-            {musicas?musicas.map((musica)=>{
+            {musicas?.map((musica)=>{
                 return(
                 <Musicas
                 key={musica.ID}
                 id={musica.ID}
-                nome={musica.NOME_DA_MUSICA}
-                cantor={musica.CANTOR}
-                estilo={musica.ESTILO}
+                nome={musica.Nome_da_musica}
+                cantor={musica.Cantor}
+                estilo={musica.Estilo}
+                link={musica.Link}
                 />)
             
-            }): "Não deu bom"}
+            })}
         </main>
     )
 }

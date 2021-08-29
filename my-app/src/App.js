@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './components/Header/Header.jsx'
-import RenderMusic from './components/MusicList/RenderMusic.jsx'
+import RenderMusic from './components/RenderMusic/RenderMusic.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Main from './components/Main/Main.jsx'
 
