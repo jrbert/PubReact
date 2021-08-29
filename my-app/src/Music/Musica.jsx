@@ -1,6 +1,6 @@
 import React from 'react';
 import { Caixa, Container, Main } from './Musica.styles.js'
-function Musicas({ id, nome, cantor, estilo }) {
+function Musicas({ nome, cantor, estilo }) {
     return (
         <Main>
             <Container>

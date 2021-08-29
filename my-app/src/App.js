@@ -10,19 +10,20 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-          <Header />
-        <Switch>
-          <Route path="/">
-            <Main />
-          </Route>
-          <Route path="/musicas">
-            <RenderMusic />
-          </Route>
-        </Switch>
+        <Header />
+          <Switch>
+            <Route path="/">
+              <Main />
+            </Route>  
+            <Route path="/musicas">
+              <RenderMusic />
+            </Route>
+          </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
+
 
 export default App;
