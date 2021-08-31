@@ -35,7 +35,24 @@ const Main = () => {
                     <p id="tb">Bloody Mary</p>
                 </div>
             </div>
-            <div id="info"></div>
+            <div id="info">
+                <div>
+                    <h3 class="drink">Drinks</h3>
+                    <p id="drinklgd">Mojito <br></br>Piña Colada<br></br>Cuba Libre<br></br>Bloody Mary<br></br>Caipirinha </p>
+                </div>
+                <div>
+                    <h3 class="pratos">Pratos</h3>
+                    <p id="pratolgd">Roast Beef<br></br>Fish and Chips<br></br>Bangers and Mash<br></br>Blue Cheese Burguer<br></br>Bubble and Squeak </p>
+                </div>
+                <div>
+                    <h3 class ="equipe">Equipe</h3>
+                    <p id="equipelgd">Allan Lima<br></br>Junior Bertão<br></br>Pedro Barbosa<br></br>Glauco Tolotto<br></br>Bruna Wesselka</p>
+                </div>
+                <div> 
+                    <h3 class="sobre">Sobre</h3>
+                    <p id="sobrelgd">O Pub Resilia que foi inaugurado<br></br> no ano de 1938. Mantém sua arquitetura<br></br> original e suas receitas desde o começo.<br></br>Venha conhecer nosso espaço. Estamos<br></br>esperando por você!</p>
+                </div>
+            </div>
         </Conteudo>
     )
 }
