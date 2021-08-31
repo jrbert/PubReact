@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Musicas from '../Music/Music.jsx';
 import api from '../../service/api.js'
+import {Main} from './RenderMusic.style.js'
+import AddMusica from '../AddMusica/AddMusica.jsx';
 
 function RenderMusic(){
     
@@ -15,7 +17,7 @@ function RenderMusic(){
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     return (
-        <main>
+        <Main>
             {musicas?.map((musica)=>{
                 return(
                 <Musicas
@@ -26,9 +28,9 @@ function RenderMusic(){
                 estilo={musica.Estilo}
                 link={musica.Link}
                 />)
-            
             })}
-        </main>
+            <AddMusica/>
+        </Main>
     )
 }
 
