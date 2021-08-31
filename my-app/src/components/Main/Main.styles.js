@@ -15,14 +15,59 @@ export const Conteudo = styled.main`
     
     #imagemprincipal {
         display: inline-block;
+        position: relative;
         grid-column-start: 1;
         grid-column-end: 4;
-        height: 78vh;
-    
+        
     }
+    #legenda {
+        position: absolute;
+        top: 25vh;
+        right: 35vw;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 75px;
+        text-shadow: 0.1em 0.1em 0.1em #000000;
+    }
+    #legenda1 {
+        position: absolute;
+        top: 40vh;
+        right: 70vw;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 28px;
+        text-shadow: 0.1em 0.1em 0.1em #000000;
+        
+    }
+    #legenda2 {
+        position: absolute;
+        top: 40vh;
+        right: 37vw;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 28px;
+        text-shadow: 0.1em 0.1em 0.1em #000000;
+    }
+    #legenda3 {
+        position: absolute;
+        top: 40vh;
+        left: 70vw;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 28px;
+        text-shadow: 0.1em 0.1em 0.1em #000000;
+    }
+
     #foto {
+        
         width: 100%;
+        height: 78vh;
     }
+
     #subtitulo {
         display: inline-block;
         align-items: center;
@@ -57,6 +102,7 @@ export const Conteudo = styled.main`
         background-color: #0F1E1D;
         grid-column-start: 1;
         grid-column-end:5;
+        
     }
 
     #linha {
@@ -80,69 +126,121 @@ export const Conteudo = styled.main`
     .bebida {
         padding-top: 4vh;
     }
-
-    .pratos {
+        
+    #pratos1e2 {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        width: 65vw;
+        height: 45vh;
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 5;
+        grid-row-start: 6;
         grid-row-end: 7;
-        background-color: #0F1E1D;
-        height: 92vh;
         padding-left: 10vh;
         padding-right: 10vh;
-        
+        background: #0F1E1D;
+
+    }
+    #pratos3e4 {
+        display: flex;
+        flex-direction: row;
+        width: 65vw;
+        height: 45vh;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        padding-left: 10vh;
+        padding-right: 10vh;
+        background: #0F1E1D;
     }
 
     #prato1 {
         
         display: flex;
-        width: 82vh;
-        height: 43vh;
-        padding-right: 3vh;
+        width: 35vw;
+        height: 42vh;
+        padding-right: 2vw;
+        
+        
+    
     }
 
     #prato2 {
         
         display: flex;
-        width: 56vh;
-        height: 43vh;
+        width: 32vw;
+        height: 42vh;
         
     }
 
     #prato3 {
-        padding-right: 3vh;
+       
         display: flex;
-        width: 56vh;
-        height: 43vh;
+        width: 32vw;
+        height: 42vh;
+        padding-right: 2vw;
         
     }
 
     #prato4 {
         display: flex;
-        width: 82vh;
-        height: 43vh;
+        width: 35vw;
+        height: 42vh;
+        
     }
 
-    #aside {
+    .aside {
         display: flex;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 4;
-        grid-row-end: 8;
-        background: blue;
-        padding-right: 20px;
+        grid-row-end: 10;
+        background: #0F1E1D;
         
+    }
+
+    #bebidas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 10;
+        background: #004E67;
+        width: 40vh;
+        margin-bottom: 3.5vh;
+        align-items: center;
+        padding-bottom: 2vh;
+
+
+    
+    }
+    #be1, #be2, #be3, #be4 {
+        display: flex;
+        width: 14vw;
+        height: 24vh;
+        
+        
+    }
+    #tb {
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 15px; 
+        text-align: center;
     }
 
     #info {
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10;
         background: pink;
-        height: 100px;
+        height: 23vh;
+        margin-bottom: 3.5vh;
+        margin-left: 10vh;
     }
 `
 

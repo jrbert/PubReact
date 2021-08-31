@@ -8,7 +8,7 @@ const Header = () => {
         <Menu>
             <nav>
                 <ul>
-                    <li id='resiliapub'><Link to="/resilia-pub">Resilia Pub</Link></li>
+                    <li id='resiliapub'><Link to="/">Resilia Pub</Link></li>
                     <li><Link to="/cardapio">Cardápio</Link></li>
                     <li><Link to="/musicas">Músicas</Link></li>
                     <li><Link to="/equipe">Nossa Equipe</Link></li>

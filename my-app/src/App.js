@@ -13,7 +13,7 @@ const App = () => {
       <Router>
         <Header />
           <Switch>
-            <Route path="/resilia-pub">
+            <Route exact path="/">
               <Main />
             </Route>  
             <Route path="/musicas">
