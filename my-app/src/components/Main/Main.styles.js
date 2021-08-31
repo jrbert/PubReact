@@ -114,7 +114,7 @@ export const Conteudo = styled.main`
         height: 10px;
         background-color: #0F1E1D;
         margin-left: 10vh;
-        margin-right: 10vh;
+        margin-right: 13.7vh;
             
     }
 
@@ -233,15 +233,107 @@ export const Conteudo = styled.main`
     }
 
     #info {
+        display: flex;
+        flex: row;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 9;
         grid-row-end: 10;
-        background: pink;
+        background-color: #0F1E1D;
         height: 23vh;
+        width: 65vw;
         margin-bottom: 3.5vh;
         margin-left: 10vh;
+        justify-content: space-between;
     }
-`
 
+    .sobre {
+        padding-top: 6vh;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        text-align: start;
+    }
+    #sobrelgd {
+        padding-top: 4vh;
+        color: #28CCAE;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px; 
+        text-align: start;
+        letter-spacing: normal;
+        letter-spacing: 0em;
+        letter-spacing: 1px;
+        letter-spacing: 1px;
+    }
+    .drink {
+        padding-top: 6vh;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        text-align: start;
+        //padding-left: 3vw;
+    }
+
+    #drinklgd {
+        padding-top: 4vh;
+        color: #28CCAE;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px; 
+        text-align: start;
+        //padding-left: 3vw;
+        letter-spacing: normal;
+        letter-spacing: 0em;
+        letter-spacing: 1px;
+        letter-spacing: 1px;
+    }
+
+    .pratos {
+        padding-top: 6vh;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        text-align: start;
+        //padding-left: 3vw;
+        
+    }
+
+    #pratolgd {
+        padding-top: 4vh;
+        color: #28CCAE;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px; 
+        text-align: start;
+        //padding-left: 3vw;
+        letter-spacing: normal;
+        letter-spacing: 0em;
+        letter-spacing: 1px;
+        letter-spacing: 1px;
+    }
+
+    .equipe {
+        padding-top: 6vh;
+        color: #5AEBD1;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        text-align: start;
+        //padding-left: 3vw;
+    }
+
+    #equipelgd {
+        padding-top: 4vh;
+        color: #28CCAE;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px; 
+        text-align: start;
+        //padding-left: 3vw;
+        letter-spacing: normal;
+        letter-spacing: 0em;
+        letter-spacing: 1px;
+        letter-spacing: 1px;
+    }
+`   
 
