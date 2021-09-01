@@ -17,6 +17,7 @@ function RenderMusic() {
         //estint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     return (
+        
         <div>
             <Box>
             <h1>Nossa Playlist</h1>
@@ -36,6 +37,7 @@ function RenderMusic() {
                 <AddMusica />
             </Container>
         </div>
+        
     )
 }
 

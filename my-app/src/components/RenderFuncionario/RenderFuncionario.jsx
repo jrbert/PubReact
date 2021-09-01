@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Funcionarios from '../Funcionarios/Funcionarios.jsx'
 import api from '../../service/api.js';
-
 function RenderFuncionarios(){
    
     const [funcionarios, setFuncionarios] = useState([]);
@@ -15,6 +14,7 @@ function RenderFuncionarios(){
     }, [])
    
     return(
+        
        <main>
            {funcionarios?.map((funcionario)=>{
                return(<Funcionarios 

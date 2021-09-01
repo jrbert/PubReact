@@ -96,7 +96,7 @@ export const Footer = styled.footer`
 
     button{
         align-self:center;
-        background: #b4ecb4;
+        background: #004E67;
         border:none;
         border-radius: 6px;
         width: 150px;
