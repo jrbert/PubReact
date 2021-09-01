@@ -5,7 +5,7 @@ function Musicas({ nome, cantor, estilo, link }) {
         <Caixa>
             <h1>{nome}</h1>
             <p>{cantor}</p>
-            <p>{estilo}</p>
+            <p id="estilo">{estilo}</p>
             <a href={link} target="_blank">{link}</a>
         </Caixa>
     )

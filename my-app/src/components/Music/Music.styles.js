@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Caixa = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     background-color: #004E67;
     margin: 5px 10px 10px 5px;
     padding: 15px;
@@ -17,8 +17,16 @@ export const Caixa = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
     
     h1{
-        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
         font-weight: 600;
+        font-size: 2.8vh;
+    }
+
+    #estilo{
+        text-transform: uppercase;
+        font-family: 'PT Serif', serif;
+        font-size: 1.8vh;
+        
     }
 
     a{

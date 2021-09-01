@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import {IoAdd} from 'react-icons/io5'
 export const AddMusicaButton = styled.button`
-    border: 5px dashed #ffffff;
+    border: 5px dashed #5AEBD1;
     background-color: rgba(0,0,0, 0.04);
 
     padding: 10px;
     height: 175px;
     width: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
 
     border-radius: 5px;
@@ -20,7 +20,7 @@ export const AddMusicaButton = styled.button`
 `
 
 export const AddIcon = styled(IoAdd)`
-    stroke: #ffffff;
+    stroke: #5AEBD1;
     width: 64px;
     height: 64px;
 `
