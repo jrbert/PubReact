@@ -34,7 +34,9 @@ export const Conteudo = styled.main`
     
     }
     #legenda:hover { 
-        color: #48BCA7;
+        color: #00F1F1;
+        text-shadow: 0.5px 0.5px 5px white;
+        
     }
 
     @keyframes zoomIn {
@@ -59,7 +61,7 @@ export const Conteudo = styled.main`
     }
 
     #legenda1:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     #legenda2 {
@@ -75,7 +77,7 @@ export const Conteudo = styled.main`
     }
 
     #legenda2:hover { 
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     #legenda3 {
@@ -91,7 +93,7 @@ export const Conteudo = styled.main`
     }
 
     #legenda3:hover { 
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     #foto {
@@ -118,7 +120,7 @@ export const Conteudo = styled.main`
     }
 
     #subtitulo:hover { 
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     #subtitulo2 {
@@ -137,7 +139,7 @@ export const Conteudo = styled.main`
     }
 
     #subtitulo2:hover { 
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     .linha1 {
@@ -272,7 +274,7 @@ export const Conteudo = styled.main`
 
     #be1, #be2, #be3, #be4 {
         display: flex;
-        width: 14vw;
+        width: 12vw;
         height: 24vh;
         
         
@@ -280,7 +282,7 @@ export const Conteudo = styled.main`
 
     #tb {
         color: #5AEBD1;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Lato', sans-serif;
         font-weight: bold;
         font-size: 15px; 
         text-align: center;
@@ -288,7 +290,7 @@ export const Conteudo = styled.main`
     }
 
     #tb:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
 
@@ -324,7 +326,7 @@ export const Conteudo = styled.main`
     }
 
     .sobre:hover {
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     #sobrelgd {
@@ -341,7 +343,7 @@ export const Conteudo = styled.main`
     }
 
     #sobrelgd:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     .drink {
@@ -360,7 +362,7 @@ export const Conteudo = styled.main`
     }
 
     .drink:hover {
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     #drinklgd {
@@ -376,7 +378,7 @@ export const Conteudo = styled.main`
     }
 
     #drinklgd:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     .pratos {
@@ -395,7 +397,7 @@ export const Conteudo = styled.main`
     }
 
     .pratos:hover {
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     #pratolgd {
@@ -412,7 +414,7 @@ export const Conteudo = styled.main`
     }
 
     #pratolgd:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
     .equipe {
@@ -431,7 +433,7 @@ export const Conteudo = styled.main`
     }
 
     .equipe:hover {
-        color: #48BCA7;
+        color: #8CFCE8;
     }
 
     #equipelgd {
@@ -448,7 +450,7 @@ export const Conteudo = styled.main`
     }
 
     #equipelgd:hover {
-        color: #48BCA7;
+        //color: #8CFCE8;
     }
 
 `   

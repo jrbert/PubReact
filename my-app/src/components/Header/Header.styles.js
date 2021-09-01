@@ -34,7 +34,8 @@ li a {
     color: #5AEBD1;
 }
 a:hover {
-    color: #48BCA7;
+    color: #8CFCE8;
+    text-shadow: 1px 1px 5px white;
 }
 
 `
