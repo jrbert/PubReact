@@ -33,6 +33,10 @@ li a {
     text-decoration: none;
     color: #5AEBD1;
 }
+a:hover {
+    color: #8CFCE8;
+    text-shadow: 1px 1px 5px white;
+}
 
 `
 

@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Funcionarios from '../Funcionarios/Funcionarios.jsx'
 import api from '../../service/api.js';
+import {Main} from './RenderFuncionario.styles.js';
+
 function RenderFuncionarios(){
    
     const [funcionarios, setFuncionarios] = useState([]);
@@ -14,8 +16,7 @@ function RenderFuncionarios(){
     }, [])
    
     return(
-        
-       <main>
+       <Main>
            {funcionarios?.map((funcionario)=>{
                return(<Funcionarios 
                     key={funcionario.ID}
@@ -25,7 +26,7 @@ function RenderFuncionarios(){
                     linkedin={funcionario.Linkedin}
                />)
            })}
-       </main>
+       </Main>
    ) 
 }
 

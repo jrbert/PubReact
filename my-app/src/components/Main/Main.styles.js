@@ -20,19 +20,37 @@ export const Conteudo = styled.main`
         grid-column-end: 4;
         
     }
+    
     #legenda {
         position: absolute;
         top: 25vh;
-        right: 35vw;
+        right: 34vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
-        font-size: 75px;
+        font-size: 80px;
         text-shadow: 0.1em 0.1em 0.1em #000000;
+        animation: zoomIn 1.3s linear both;
+    
     }
+    #legenda:hover { 
+        color: #00F1F1;
+        text-shadow: 0.5px 0.5px 5px white;
+        
+    }
+
+    @keyframes zoomIn {
+    from {
+    transform: scale(0.4)
+    }
+    to {
+    transform: scale(1);
+    }
+}
+
     #legenda1 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         right: 70vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
@@ -41,31 +59,47 @@ export const Conteudo = styled.main`
         text-shadow: 0.1em 0.1em 0.1em #000000;
         
     }
+
+    #legenda1:hover {
+        //color: #8CFCE8;
+    }
+
     #legenda2 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         right: 37vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 28px;
         text-shadow: 0.1em 0.1em 0.1em #000000;
+
     }
+
+    #legenda2:hover { 
+        //color: #8CFCE8;
+    }
+
     #legenda3 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         left: 70vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 28px;
         text-shadow: 0.1em 0.1em 0.1em #000000;
+
+    }
+
+    #legenda3:hover { 
+        //color: #8CFCE8;
     }
 
     #foto {
         
         width: 100%;
-        height: 78vh;
+        height: 78.4vh;
     }
 
     #subtitulo {
@@ -85,6 +119,10 @@ export const Conteudo = styled.main`
         padding-left: 20px;
     }
 
+    #subtitulo:hover { 
+        color: #8CFCE8;
+    }
+
     #subtitulo2 {
         display: inline-block;
         align-items: center;
@@ -97,7 +135,13 @@ export const Conteudo = styled.main`
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 18px;
+
     }
+
+    #subtitulo2:hover { 
+        color: #8CFCE8;
+    }
+
     .linha1 {
         background-color: #0F1E1D;
         grid-column-start: 1;
@@ -106,12 +150,25 @@ export const Conteudo = styled.main`
     }
 
     #linha {
-        border-top: 2px;
+        border-top: 0.4vh;
         border-style: solid;
         border-color: gray;
         grid-column-start: 1;
         grid-column-end:5;
-        height: 10px;
+        height: 2vh;
+        background-color: #0F1E1D;
+        margin-left: 10vh;
+        margin-right: 13.7vh;
+        padding-bottom: 1vh;
+            
+    }
+    #linha2 {
+        border-top: 0.4vh;
+        border-style: solid;
+        border-color: gray;
+        grid-column-start: 1;
+        grid-column-end:5;
+        height: 2vh;
         background-color: #0F1E1D;
         margin-left: 10vh;
         margin-right: 13.7vh;
@@ -141,6 +198,7 @@ export const Conteudo = styled.main`
         background: #0F1E1D;
 
     }
+    
     #pratos3e4 {
         display: flex;
         flex-direction: row;
@@ -156,7 +214,6 @@ export const Conteudo = styled.main`
     }
 
     #prato1 {
-        
         display: flex;
         width: 35vw;
         height: 42vh;
@@ -167,7 +224,6 @@ export const Conteudo = styled.main`
     }
 
     #prato2 {
-        
         display: flex;
         width: 32vw;
         height: 42vh;
@@ -214,23 +270,29 @@ export const Conteudo = styled.main`
         align-items: center;
         padding-bottom: 2vh;
 
-
-    
     }
+
     #be1, #be2, #be3, #be4 {
         display: flex;
-        width: 14vw;
+        width: 12vw;
         height: 24vh;
         
         
     }
+
     #tb {
         color: #5AEBD1;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Lato', sans-serif;
         font-weight: bold;
         font-size: 15px; 
         text-align: center;
+
     }
+
+    #tb:hover {
+        //color: #8CFCE8;
+    }
+
 
     #info {
         display: flex;
@@ -245,16 +307,28 @@ export const Conteudo = styled.main`
         margin-bottom: 3.5vh;
         margin-left: 10vh;
         justify-content: space-between;
+        padding-bottom: 4.2vh;
     }
 
     .sobre {
+        padding-bottom: 2vh;
         padding-top: 6vh;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 20px; 
         text-align: start;
+        border-bottom: 0.4vh;
+        border-style: solid;
+        border-color: gray;
+        margin-right: 28vh;
+
     }
+
+    .sobre:hover {
+        color: #8CFCE8;
+    }
+
     #sobrelgd {
         padding-top: 4vh;
         color: #28CCAE;
@@ -265,15 +339,30 @@ export const Conteudo = styled.main`
         letter-spacing: 0em;
         letter-spacing: 1px;
         letter-spacing: 1px;
+        
     }
+
+    #sobrelgd:hover {
+        //color: #8CFCE8;
+    }
+
     .drink {
+        padding-bottom: 2vh;
         padding-top: 6vh;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 20px; 
         text-align: start;
-        //padding-left: 3vw;
+        border-bottom: 0.4vh;
+        border-style: solid;
+        border-color: gray;
+        margin-right: 15vh;
+        
+    }
+
+    .drink:hover {
+        color: #8CFCE8;
     }
 
     #drinklgd {
@@ -282,22 +371,33 @@ export const Conteudo = styled.main`
         font-family: 'Lato', sans-serif;
         font-size: 12px; 
         text-align: start;
-        //padding-left: 3vw;
         letter-spacing: normal;
         letter-spacing: 0em;
         letter-spacing: 1px;
         letter-spacing: 1px;
     }
 
+    #drinklgd:hover {
+        //color: #8CFCE8;
+    }
+
     .pratos {
+        padding-bottom: 2vh;
+        border-bottom: 0.4vh;
+        border-style: solid;
+        border-color: gray;
         padding-top: 6vh;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 20px; 
         text-align: start;
-        //padding-left: 3vw;
+        margin-right: 15vh;
         
+    }
+
+    .pratos:hover {
+        color: #8CFCE8;
     }
 
     #pratolgd {
@@ -306,21 +406,34 @@ export const Conteudo = styled.main`
         font-family: 'Lato', sans-serif;
         font-size: 12px; 
         text-align: start;
-        //padding-left: 3vw;
         letter-spacing: normal;
         letter-spacing: 0em;
         letter-spacing: 1px;
         letter-spacing: 1px;
+
+    }
+
+    #pratolgd:hover {
+        //color: #8CFCE8;
     }
 
     .equipe {
+        padding-bottom: 2vh;
         padding-top: 6vh;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 20px; 
         text-align: start;
-        //padding-left: 3vw;
+        border-bottom: 0.4vh;
+        border-style: solid;
+        border-color: gray;
+        margin-right: 8vh;
+
+    }
+
+    .equipe:hover {
+        color: #8CFCE8;
     }
 
     #equipelgd {
@@ -329,11 +442,17 @@ export const Conteudo = styled.main`
         font-family: 'Lato', sans-serif;
         font-size: 12px; 
         text-align: start;
-        //padding-left: 3vw;
         letter-spacing: normal;
         letter-spacing: 0em;
         letter-spacing: 1px;
         letter-spacing: 1px;
+
     }
+
+    #equipelgd:hover {
+        //color: #8CFCE8;
+    }
+
 `   
+
 
