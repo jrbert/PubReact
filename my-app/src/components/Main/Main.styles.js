@@ -30,7 +30,7 @@ export const Conteudo = styled.main`
         font-weight: bold;
         font-size: 75px;
         text-shadow: 0.1em 0.1em 0.1em #000000;
-        animation: zoomIn 1.5s linear both;
+        animation: zoomIn 1.3s linear both;
     
     }
     #legenda:hover { 
