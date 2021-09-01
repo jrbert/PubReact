@@ -33,6 +33,9 @@ li a {
     text-decoration: none;
     color: #5AEBD1;
 }
+a:hover {
+    color: #48BCA7;
+}
 
 `
 

@@ -20,7 +20,7 @@ const App = () => {
               <RenderMusic />
             </Route>
             <Route path="/equipe">
-              <RenderFuncionarios/>
+              <RenderFuncionarios />
             </Route>
           </Switch>
         <Footer />
