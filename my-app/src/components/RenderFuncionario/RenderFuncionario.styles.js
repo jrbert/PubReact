@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Main = styled.main`
     background-color: #0F1E1D;
     display: flex;
-    flex-direction: row;
-    //justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     vertical-align: middle;
     color: white;
@@ -19,10 +19,12 @@ export const Fotos = styled.div`
     color:#5AEBD1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
 
-    #equipetitulo {
+    h1 {
+        font-size: 10vh;
+        margin-top: 10px;
         display: flex;
         flex-direction: row;
         font-family: 'Playfair Display', sans-serif;
@@ -33,11 +35,6 @@ export const Fotos = styled.div`
         height: 25vh;
         width: 100%;
         justify-content: center;
-    }
-
-    h1 {
-        font-size: 10vh;
-        margin-top: 10px;
     }
 
     #nossosquadros {
@@ -54,4 +51,9 @@ export const Fotos = styled.div`
         border-style: solid;
         border-color: white;
     }
+`
+
+export const Dados = styled.div`
+    display: flex;
+    flex-direction: row;
 `
