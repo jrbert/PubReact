@@ -24,11 +24,11 @@ export const Conteudo = styled.main`
     #legenda {
         position: absolute;
         top: 25vh;
-        right: 35vw;
+        right: 34vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
-        font-size: 75px;
+        font-size: 80px;
         text-shadow: 0.1em 0.1em 0.1em #000000;
         animation: zoomIn 1.3s linear both;
     
@@ -48,7 +48,7 @@ export const Conteudo = styled.main`
 
     #legenda1 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         right: 70vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
@@ -64,7 +64,7 @@ export const Conteudo = styled.main`
 
     #legenda2 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         right: 37vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
@@ -80,7 +80,7 @@ export const Conteudo = styled.main`
 
     #legenda3 {
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         left: 70vw;
         color: #5AEBD1;
         font-family: 'Playfair Display', serif;
