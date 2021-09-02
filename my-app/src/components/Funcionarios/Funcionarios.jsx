@@ -7,8 +7,8 @@ function Funcionarios ({nome, github, linkedin, imagem}){
         <Func>
             <img src={imagem}></img>
             <h2>{nome}</h2>
-            <p id="names">Github: <a>{github}</a></p>
-            <p id="linkedin">Linkedin: <a>{linkedin}</a></p>
+            <p id="githubequipe">Github: <a id="github1" href={github} target="_blank">{github}</a></p>
+            <p id="linkedin">Linkedin: <a id="github1" href={linkedin} target="_blank">{linkedin}</a></p>
         </Func>
     )
 }
