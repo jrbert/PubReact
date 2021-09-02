@@ -1,38 +1,39 @@
 import React from "react";
+
 import "./contact.css";
 
-export default function Contato() {
+export default function App() {
   return (
-    <div class="contact-container">
-      <div class="contact-title">Contato</div>
-      <div class="contact-description">
+    <div className="contact-container">
+      <div className="contact-title">Contato</div>
+      <div className="contact-description">
         Tudo o que você precisar, nos vamos te ajudar!
       </div>
-      <div class="contact-block">
-        <div class="block-1">
-          <div class="address">
-            <i class="fas-fa-map-marker-alt"></i>
-            <div class="address-details">
+      <div className="contact-block">
+        <div className="block-1">
+          <div className="address">
+            <i className="fas fa-map-marker-alt"></i>
+            <div className="address-details">
               <p>Localização</p>
               <p>Alameda Min. Rocha Azevedo, 72 - Bela Vista, São Paulo - SP, 01410-000</p>
             </div>
           </div>
-          <div class="email">
-            <i class="fas fa-envelope"></i>
-            <div class="email-details">
+          <div className="email">
+            <i className="fas fa-envelope"></i>
+            <div className="email-details">
               <p>Email</p>
               <p>pubPub@example.com</p>
             </div>
           </div>
-          <div class="phone">
-            <i class="fas fa-phone-alt"></i>
-            <div class="phone-details">
+          <div className="phone">
+            <i className="fas fa-phone-alt"></i>
+            <div className="phone-details">
               <p>Telefone</p>
               <p>+55 98876 8907</p>
             </div>
           </div>
 
-          <div class="map">
+          <div className="map">
             <iframe
               title="iframe"
               frameborder="0"
@@ -43,28 +44,28 @@ export default function Contato() {
             ></iframe>
           </div>
         </div>
-        <div class="block-2">
+        <div className="block-2">
           <form action="#">
-            <div class="form-row">
-              <div class="form-group">
+            <div className="form-row">
+              <div className="form-group">
                 <label htmlFor="name">Nome Completo</label>
                 <input type="text" id="name" />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label htmlFor="email">Seu email</label>
                 <input type="email" id="email" />
               </div>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="subject">Assunto</label>
               <input type="text" id="subject" />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="Message">Mensagem</label>
               <textarea name="message" id="message"></textarea>
             </div>
-            <div class="btn-container">
+            <div className="btn-container">
               <button type="submit">Enviar</button>
             </div>
           </form>

@@ -1,6 +1,8 @@
-
-  /*background-color: #0F1E1D;*/
-
+body{
+  background-color: #0F1E1D;
+  margin: 0;
+  padding: 0;
+}
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -174,3 +176,4 @@ form .btn-container button:hover {
     width: 100% !important;
  }
 }
+

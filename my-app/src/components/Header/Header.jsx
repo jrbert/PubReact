@@ -12,7 +12,6 @@ const Header = () => {
                     <li><Link to="/cardapio">Cardápio</Link></li>
                     <li><Link to="/musicas">Músicas</Link></li>
                     <li><Link to="/equipe">Nossa Equipe</Link></li>
-                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
             </nav>
         </Menu>

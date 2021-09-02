@@ -453,6 +453,14 @@ export const Conteudo = styled.main`
         //color: #8CFCE8;
     }
 
+    img:hover {
+        background-color: #BDA6A1;
+        opacity: 0.9;
+    }
+    a {
+        text-decoration: none;
+    }
+
 `   
 
 

@@ -18,6 +18,7 @@ export const Func = styled.div`
     padding-bottom: 5vh;;
 
     h2 {
+        
         padding-bottom: 1.5vh;
         font-size: 3vh;
     } 

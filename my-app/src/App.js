@@ -18,7 +18,7 @@ const App = () => {
     setLoadign(true);
     setTimeout(()=>{
       setLoadign(false)
-    },6000)
+    },4000)
   }, [])
 
   return (
@@ -41,9 +41,6 @@ const App = () => {
             </Route>
             <Route path="/equipe">
               <RenderFuncionarios />
-            </Route>
-            <Route path="/contatos">
-              <Contato />
             </Route>
           </Switch>
         <Footer />
