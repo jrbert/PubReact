@@ -5,7 +5,7 @@ function Loading() {
         <div>
             <Animation>
                 <Beer>
-                    <img src="https://image.flaticon.com/icons/png/512/2884/2884828.png" class="beer"/>
+                    <img src="https://image.flaticon.com/icons/png/512/2884/2884828.png" className="beer"/>
                 </Beer>
                     <p>LOADING...</p>
                 </Animation>

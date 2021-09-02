@@ -7,7 +7,8 @@ import RenderMusic from './components/RenderMusic/RenderMusic.jsx';
 import RenderFuncionarios from './components/RenderFuncionario/RenderFuncionario.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Main from './components/Main/Main.jsx';
-
+import Cardapio from './components/Cardapio/Cardapio.jsx';
+import Contato from './components/Contato/Contact.jsx';
 
 const App = () => {
 
@@ -32,11 +33,17 @@ const App = () => {
             <Route exact path="/">
               <Main />
             </Route>  
+            <Route path='/cardapio'>
+              <Cardapio />
+            </Route>
             <Route path="/musicas">
               <RenderMusic />
             </Route>
             <Route path="/equipe">
               <RenderFuncionarios />
+            </Route>
+            <Route path="/contatos">
+              <Contato />
             </Route>
           </Switch>
         <Footer />
