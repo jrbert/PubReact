@@ -10,10 +10,12 @@ export const Func = styled.div`
     border: solid gray 0.3vh;
     padding-right: 1vh;
     padding-left: 1vh;
-    width: 20%;
+    width: 14.5vw;
     padding: 2vw;
     margin-left: 1vh;
     margin-right: 1vh;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;;
 
     h2 {
         padding-bottom: 1.5vh;
@@ -26,12 +28,12 @@ export const Func = styled.div`
     }
 
     #githubequipe {
-        font-size: 18px;
+        font-size: 1vw;
         flex-direction: wrap;
     }
 
     #linkedin {
-        font-size: 18px;
+        font-size: 1vw;
         flex-direction: wrap;
         padding-top: 2vh;
         
@@ -52,7 +54,7 @@ export const Func = styled.div`
         text-align: center;
         flex-wrap: wrap;
         padding-top: 1vh;
-        font-size: 18px;
+        font-size: 1vw;
 
         &:hover {
             opacity: 0.5;

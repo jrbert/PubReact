@@ -23,6 +23,7 @@ export const Box = styled.div`
         font-family: 'PT Serif', serif;
         font-weight: 700;
         font-size: 10vh;
+        
     }
 `
 

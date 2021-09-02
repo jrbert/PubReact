@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Funcionarios from '../Funcionarios/Funcionarios.jsx'
 import api from '../../service/api.js';
-import { Main, Dados, Fotos } from './RenderFuncionario.styles.js';
+import { Main, Dados, Box } from './RenderFuncionario.styles.js';
+
 
 function RenderFuncionarios() {
 
@@ -17,6 +18,9 @@ function RenderFuncionarios() {
 
     return (
         <Main>
+            <Box>
+            <h1>Nossa Equipe</h1>
+            </Box>
             <Dados>
             {funcionarios?.map((funcionario) => {
                 return (<Funcionarios
@@ -29,6 +33,7 @@ function RenderFuncionarios() {
                 />)
             })}
             </Dados>
+            <div className ="espaco"></div>
             
         </Main>
 
