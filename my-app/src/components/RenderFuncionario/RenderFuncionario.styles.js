@@ -7,12 +7,9 @@ export const Main = styled.main`
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-    color: white;
-    height: 65vh;
+    height: 90vh;
     width: 100%;
-    font-size: 1vh 1vw;
 
-   
 `
 export const Fotos = styled.div`
     background-color: #0F1E1D;
@@ -20,10 +17,9 @@ export const Fotos = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
 
     h1 {
-        font-size: 10vh;
+        font-size: 18px;
         margin-top: 10px;
         display: flex;
         flex-direction: row;
@@ -48,12 +44,17 @@ export const Fotos = styled.div`
         justify-content: center;
         height: 25vh; 
         width: 100%;
-        border-style: solid;
-        border-color: white;
+        
     }
 `
 
 export const Dados = styled.div`
     display: flex;
     flex-direction: row;
+   
+    img {
+        width: 12vw;
+        height: 25vh;
+        padding-bottom: 2vh;
+    }
 `

@@ -3,14 +3,62 @@ import styled from 'styled-components';
 export const Func = styled.div`
     background-color: #0F1E1D;
     display: flex;
-    //grid-template-columns: 5fr;
-    //grid-template-rows: auto;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    vertical-align: middle;
-    color: white;
+    height: 45vh;
+    color: #5AEBD1;
+    border: solid gray 0.3vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    width: 20%;
+    padding: 2vw;
+    margin-left: 1vh;
+    margin-right: 1vh;
 
+    h2 {
+        padding-bottom: 1.5vh;
+        font-size: 3vh;
+    } 
+
+    h2:hover {
+        color: #5AEBD1;
+
+    }
+
+    #githubequipe {
+        font-size: 18px;
+        flex-direction: wrap;
+    }
+
+    #linkedin {
+        font-size: 18px;
+        flex-direction: wrap;
+        padding-top: 2vh;
+        
+    }
+
+    p:hover {
+        color: #5AEBD1;
+    }
+
+    #github1 {
+        text-decoration: none;
+        font-style: italic;
+        align-self: start;
+        color: #5AEBD1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: 0.2s ease-out;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-top: 1vh;
+        font-size: 18px;
+
+        &:hover {
+            opacity: 0.5;
+
+        }
+}
 
     #fotoequipe {
         display: flex;
@@ -18,10 +66,5 @@ export const Func = styled.div`
         width: 15vw;
         height: 15vh;
     }
-
-`
-export const Equipe = styled.div`
-
-
 
 `
